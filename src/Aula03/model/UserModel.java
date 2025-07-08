@@ -1,65 +1,62 @@
 package Aula03.model;
 
-import java.time.OffsetDateTime;
+import java.time.LocalDate;
 import java.util.Objects;
 
-public class UserModel{
+public class UserModel {
     private long id;
     private String nome;
     private String email;
-    private OffsetDateTime aniversario;
+    private LocalDate aniversario;
 
-    public UserModel(final long id, final String nome, final String email, final OffsetDateTime aniversario) {
+    public UserModel(final long id, final String nome, final String email, final LocalDate aniversario) {
         this.id = id;
         this.nome = nome;
         this.email = email;
         this.aniversario = aniversario;
     }
 
-    public UserModel(){
-    }
-
-    public long getId(){
+    public long getId() {
         return id;
     }
 
-    public void setId(long id){
+    public void setId(long id) {
         this.id = id;
     }
 
-    public String getNome(){
+    public String getNome() {
         return nome;
     }
 
-    public void setNome(String nome){
+    public void setNome(String nome) {
         this.nome = nome;
     }
 
-    public String getEmail(){
+    public String getEmail() {
         return email;
     }
 
-    public void setEmail(String email){
+    public void setEmail(String email) {
         this.email = email;
     }
 
-    public OffsetDateTime getAniversario(){
+    public LocalDate getAniversario() {
         return aniversario;
     }
 
-    public void setAniversario(OffsetDateTime aniversario){
+    public void setAniversario(LocalDate aniversario) {
         this.aniversario = aniversario;
     }
 
     @Override
-    public boolean equals(Object o){
+    public boolean equals(Object o) {
         if (o == null || getClass() != o.getClass()) return false;
         UserModel userModel = (UserModel) o;
         return id == userModel.id && Objects.equals(nome, userModel.nome) && Objects.equals(email, userModel.email) && Objects.equals(aniversario, userModel.aniversario);
     }
 
     @Override
-    public int hashCode(){
+    public int hashCode() {
         return Objects.hash(id, nome, email, aniversario);
     }
 
