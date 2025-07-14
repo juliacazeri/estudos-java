@@ -1,8 +1,8 @@
-package Aula01;
+package Aula01.Exemplos;
 
 import java.util.Scanner;
 
-public class exemplo04 {
+public class Exemplo04 {
 
     public static void main (String args[]){
         // Operadores de atribuição e lógicos

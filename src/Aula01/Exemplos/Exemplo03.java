@@ -1,6 +1,6 @@
-package Aula01;
+package Aula01.Exemplos;
 
-public class exemplo03 {
+public class Exemplo03 {
 
     public static void main (String args[]){
         // Tipos primitivos

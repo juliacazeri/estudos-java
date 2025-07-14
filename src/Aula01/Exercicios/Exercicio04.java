@@ -1,8 +1,8 @@
-package Aula01;
+package Aula01.Exercicios;
 
 import java.util.Scanner;
 
-public class exercicio04 {
+public class Exercicio04 {
 
     public static void main (String args[]){
         Scanner scanner = new Scanner(System.in);

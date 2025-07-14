@@ -1,8 +1,8 @@
-package Aula01;
+package Aula01.Exemplos;
 
 import java.util.Scanner;
 
-public class exemplo02 {
+public class Exemplo02 {
 
     private final static String WELCOME_MESSAGE = "Olá, informe o seu nome: ";
 

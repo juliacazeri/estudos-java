@@ -1,6 +1,6 @@
-package Aula01;
+package Aula01.Exemplos;
 
-public class exemplo11 {
+public class Exemplo11 {
     public static void main (String args[]){
         // Operadores Bitwise (NEGAÇÃO)
         var valor1 = -789;

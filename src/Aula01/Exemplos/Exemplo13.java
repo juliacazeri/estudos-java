@@ -1,6 +1,6 @@
-package Aula01;
+package Aula01.Exemplos;
 
-public class exemplo13 {
+public class Exemplo13 {
 
     public static void main (String args[]){
         // Operadores Bitwise (right shift operator)
