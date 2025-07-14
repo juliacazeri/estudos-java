@@ -1,8 +1,8 @@
-package Aula02;
+package Aula02.Exemplos;
 
 import java.util.Scanner;
 
-public class exemplo02 {
+public class Exemplo02 {
 
     public static void main (String[] args){
         Scanner scanner = new Scanner(System.in);

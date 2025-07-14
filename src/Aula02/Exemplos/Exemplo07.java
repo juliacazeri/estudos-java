@@ -1,6 +1,6 @@
-package Aula02;
+package Aula02.Exemplos;
 
-public class exemplo07 {
+public class Exemplo07 {
 
     public static void main (String[] args){
         for(int i = 1; i <= 100; i ++){
