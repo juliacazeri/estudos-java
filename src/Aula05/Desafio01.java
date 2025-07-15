@@ -2,7 +2,7 @@ package Aula05;
 
 import java.util.Scanner;
 
-public class Desafio {
+public class Desafio01 {
 
     public static void main (String[] args){
         Scanner leitorDeEntradas = new Scanner(System.in);
