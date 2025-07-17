@@ -1,4 +1,4 @@
-package Aula06.Exemplo02;
+package Aula06.Exemplos.Exemplo02;
 
 import java.time.OffsetDateTime;
 

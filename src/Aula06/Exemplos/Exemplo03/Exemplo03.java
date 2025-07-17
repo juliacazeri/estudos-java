@@ -1,4 +1,4 @@
-package Aula06.Exemplo03;
+package Aula06.Exemplos.Exemplo03;
 
 public class Exemplo03 {
 
