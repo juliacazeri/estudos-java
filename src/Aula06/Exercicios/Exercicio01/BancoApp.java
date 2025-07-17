@@ -19,6 +19,7 @@ public class BancoApp{
             System.out.println("6- Pagar boleto.");
             System.out.println("7- Verificar uso do cheque especial.");
             System.out.println("8- Sair.");
+            System.out.print("Escolha uma opção: ");
             opcao = scanner.nextInt();
             scanner.nextLine();
 
