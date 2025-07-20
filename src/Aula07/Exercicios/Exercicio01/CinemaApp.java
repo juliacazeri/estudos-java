@@ -114,10 +114,10 @@ public class CinemaApp{
             return;
         }
         System.out.println("\n===== Lista de Ingressos =====");
-        for (int i = 0; i < ingressos.size(); i++) {
-            Ingresso ingresso = ingressos.get(i);
-
-            System.out.printf("%d) Filme: %s | Tipo de áudio: %s | Valor final: R$ %.2f%n", i + 1, ingresso.getFilme(), ingresso.getTipoAudio(), ingresso.calcularValorFinal());
+        for(Ingresso ingresso : ingressos){
+            System.out.println("Filme: " + ingresso.getFilme() );
+            System.out.println("Tipo de áudio: " + ingresso.getTipoAudio() + ".");
+            System.out.println("Valor Final: R$" + ingresso.calcularValorFinal() + "." );
         }
     }
 }
