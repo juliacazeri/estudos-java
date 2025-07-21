@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class SistemaUsuarioApp{
     private final static Scanner scanner = new Scanner(System.in);
-    private static List<Usuario> usuarios = new ArrayList<>();
+    private static final List<Usuario> usuarios = new ArrayList<>();
 
     public static void main (String[] args){
         int opcao = -1;
@@ -18,6 +18,7 @@ public class SistemaUsuarioApp{
             System.out.println("3- Cadastrar Atendente.");
             System.out.println("4- Listar todos os usuários cadastrados.");
             System.out.println("5- Sair.");
+            System.out.print("Escolha uma opção: ");
             opcao = scanner.nextInt();
             scanner.nextLine();
 
@@ -111,6 +112,7 @@ public class SistemaUsuarioApp{
             System.out.println("Nome: " + usuario.getNomeFuncionario() + ".");
             System.out.println("Email: " + usuario.getEmail() + ".");
             System.out.println("Administrador: " + (usuario.isAdministrador() ? "Sim" : "Não") + ".");
+            System.out.println("===============================");
         }
     }
 }

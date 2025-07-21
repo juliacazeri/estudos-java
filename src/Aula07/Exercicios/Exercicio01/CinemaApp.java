@@ -118,6 +118,7 @@ public class CinemaApp{
             System.out.println("Filme: " + ingresso.getFilme() );
             System.out.println("Tipo de áudio: " + ingresso.getTipoAudio() + ".");
             System.out.println("Valor Final: R$" + ingresso.calcularValorFinal() + "." );
+            System.out.println("================================");
         }
     }
 }
