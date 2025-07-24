@@ -1,4 +1,4 @@
-package Aula10.Exercicio.Exercicio01;
+package Aula10.Exercicios.Exercicio01;
 
 public class Item{
     private String nome;
