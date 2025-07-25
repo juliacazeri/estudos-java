@@ -67,6 +67,6 @@ public class CarrinhoDeCompras{
         carrinhoDeCompras.removerItem("Lápis");
         carrinhoDeCompras.exibirItens();
 
-        System.out.println("O valor total da compra é = " + carrinhoDeCompras.calcularValorTotal());
+        System.out.println("O valor total da compra é = " + carrinhoDeCompras.calcularValorTotal() + ".");
     }
 }

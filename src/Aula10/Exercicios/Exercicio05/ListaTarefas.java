@@ -29,7 +29,7 @@ public class ListaTarefas{
         if(tarefaSet.isEmpty()){
             System.out.println("Lista de tarefas está vazia.");
         } else{
-            System.out.println("Lista de tarefas:");
+            System.out.println("Lista de tarefas: ");
             for(Tarefa t : tarefaSet){
                 System.out.println(t);
             }
@@ -93,20 +93,20 @@ public class ListaTarefas{
 
         lista.marcarTarefaConcluida("Estudar Java");
 
-        System.out.println("\nTarefas concluídas:");
+        System.out.println("\nTarefas concluídas: ");
         System.out.println(lista.obterTarefasConcluidas());
 
-        System.out.println("\nTarefas pendentes:");
+        System.out.println("\nTarefas pendentes: ");
         System.out.println(lista.obterTarefasPendentes());
 
         lista.exibirTarefas();
 
         lista.removerTarefa("Ler um livro");
-        System.out.println("\nApós remover uma tarefa:");
+        System.out.println("\nApós remover uma tarefa: ");
         lista.exibirTarefas();
 
         lista.limparListaTarefas();
-        System.out.println("\nApós limpar a lista:");
+        System.out.println("\nApós limpar a lista: ");
         lista.exibirTarefas();
     }
 }

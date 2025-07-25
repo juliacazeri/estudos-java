@@ -28,7 +28,7 @@ public class GerenciadorAlunos{
         if(alunoSet.isEmpty()){
             System.out.println("Nenhum aluno cadastrado.");
         } else{
-            System.out.println("Lista de alunos:");
+            System.out.println("Lista de alunos: ");
             for(Aluno a : alunoSet){
                 System.out.println(a);
             }
@@ -39,7 +39,7 @@ public class GerenciadorAlunos{
         List<Aluno> listaOrdenada = new ArrayList<>(alunoSet);
         listaOrdenada.sort(Comparator.comparing(Aluno::getNome));
 
-        System.out.println("Alunos ordenados por nome:");
+        System.out.println("Alunos ordenados por nome: ");
         for(Aluno a : listaOrdenada){
             System.out.println(a);
         }
@@ -49,7 +49,7 @@ public class GerenciadorAlunos{
         List<Aluno> listaOrdenada = new ArrayList<>(alunoSet);
         listaOrdenada.sort(Comparator.comparingDouble(Aluno::getMedia));
 
-        System.out.println("Alunos ordenados por média:");
+        System.out.println("Alunos ordenados por média: ");
         for(Aluno a : listaOrdenada){
             System.out.println(a);
         }

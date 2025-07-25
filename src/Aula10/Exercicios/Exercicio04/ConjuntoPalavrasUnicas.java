@@ -35,7 +35,7 @@ public class ConjuntoPalavrasUnicas{
     }
 
     public void exibirPalavrasUnicas(){
-        System.out.println("Palavras únicas no conjunto:");
+        System.out.println("Palavras únicas no conjunto: ");
         System.out.println(palavraSet);
     }
 
